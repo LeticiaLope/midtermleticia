@@ -1,0 +1,12 @@
+<!--error.ejs, Leticia Lopez, 301087698, midterm-->
+<%- include partials/header.ejs%>
+
+
+<div class="container">
+    <h1><%= message %></h1>
+    <h2><%= error.status %></h2>
+    <pre><%= error.stack %></pre>
+</div>
+
+
+<%- include partials/footer.ejs%>
